@@ -4,7 +4,19 @@
   left: 10px;
 }
 .icon-right {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
+  position: relative;
+  bottom: -150px;
+  left: 250px;
+}
+.season-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.season-display.winter {
+  background-color: aliceblue;
+}
+.season-display.summer {
+  background-color: red;
 }
