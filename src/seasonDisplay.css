@@ -14,9 +14,17 @@
   justify-content: center;
   height: 100vh;
 }
-.season-display.winter {
+
+.winter {
   background-color: aliceblue;
 }
-.season-display.summer {
+.summer {
   background-color: red;
+}
+
+.season-display.winter i {
+  color: blue;
+}
+.season-display.summer i {
+  color: red;
 }
